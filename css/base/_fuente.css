@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Open sans';
+  src: url(../../../recursos/tipografias/OpenSans-Regular.ttf) format("truetype");
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../../../recursos/tipografias/Roboto-Bold.ttf) format("truetype");
+  font-weight: normal; }

@@ -1,0 +1,1 @@
+var compartirFacebook=document.getElementById("js-compartir-fb");compartirFacebook.addEventListener("click",function(e){e.preventDefault(),FB.ui({method:"share",href:"www.nombredelapagina.com"},function(e){e&&!e.error_message?alert("Se ha compartido satisfactoriamente el artículo"):alert("Ha ocurrido un error, inténtalo nuevamente por favor.")})});

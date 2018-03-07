@@ -1,0 +1,1 @@
+var modalACerrar=document.querySelector(".js-contenedor-modal"),modalACerrarIcono=document.querySelector(".js-icono-cerrar");modalACerrarIcono.addEventListener("click",function(){modalACerrar.remove()});

@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Contacto - CLAPSAS</title>
+    <meta charset="utf-8"/>
+    <meta name="title" content="CLAPSAS"/>
+    <meta property="og:site_name" content="CLAPSAS"/>
+    <meta name="description" content="Somos una firma constituida en Barranquilla que promueve servicios de consultoría laboral, gerencia de proyectos inmobiliarios y acompañamiento a empresas e instituciones que buscan crecer a gran escala."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.clapsas.com"/>
+    <meta property="og:title" content="CLAPSAS"/>
+    <meta property="og:description" content="Somos una firma constituida en Barranquilla que promueve servicios de consultoría laboral, gerencia de proyectos inmobiliarios y acompañamiento a empresas e instituciones que buscan crecer a gran escala."/>
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/pages/contacto.css"/>
+    <link rel="stylesheet" href="recursos/iconos-web/fontello/fontello.css"/>
+    <link rel="stylesheet" href="recursos/iconos-web/font-awesome/css/font-awesome.min.css"/>
+    <link rel="shortcut icon" href="recursos/logos/logo-clap-transparent.png" type="image/png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,900,900i"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Open+Sans:700"/>
+  </head>
+  <body>
+    <header class="menu__contenedor">
+      <div class="menu__logo"><img class="logo-clap" src="recursos/logos/logo-clap-transparent.png"/></div>
+      <nav class="menu__contenedor__items" id="js-menu">
+        <ul>
+          <li class="menu__item"><a class="menu__enlace" href="index.html">Home</a></li>
+          <li class="menu__item"><a class="menu__enlace" href="quehacemos.html">¿Qué hacemos?</a></li>
+          <li class="menu__item"><a class="menu__enlace" href="quienes-somos.html">Quienes Somos</a></li>
+          <li class="menu__item"><a class="menu__enlace menu__enlace--active" href="contacto.html">Contacto</a></li>
+          <li class="menu__item"><a class="menu__enlace" href="novedades.html">Novedades</a></li>
+        </ul>
+      </nav>
+      <div class="menu__icono">
+        <p id="js-icono"><span class="icon-menu-fontello"></span></p>
+      </div>
+    </header>
+    <div class="contenedor-formulario">
+      <div class="formulario"><img class="formulario__image" src="recursos/logos/logo-clap-default-transparent.png"/>
+        <div class="contenedor-inputs">
+          <form id="js-formulario-contacto">
+            <div class="contenedor__opciones">
+              <p class="opciones__titulo">Tipo de contacto</p>
+              <input class="formulario__radio" type="radio" name="tp" value="persona-empresarial" id="empresarial"/><label for="empresarial" class="formulario__label"> Jurídica </label>
+              <input class="formulario__radio" type="radio" name="tp" value="persona-juridica" id="persona"/><label for="persona" class="formulario__label"> Persona </label>
+            </div>
+            <input class="formulario__input" type="text" placeholder="Nombre" id="js-input-referencia"/>
+            <input class="formulario__input" type="text" placeholder="Apellido"/>
+            <input class="formulario__input" type="text" placeholder="Email"/>
+            <input class="formulario__input" type="text" placeholder="Teléfono"/>
+            <textarea class="formulario__textarea" placeholder="Mensaje" maxlength="200" title="Escriba el motivo por el que llegó a esta sección"></textarea>
+            <input class="formulario__submit" type="submit" value="Enviar datos" title="Este formulario aún no almacena información"/>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-columna">
+        <p class="footer-title">Consultoría Laboral y Arquitectura de Proyectos</p>
+        <p class="footer-item">Barranquilla - Colombia</p>
+        <p class="footer-item">Distrito Especial</p>
+        <p class="footer-item">Industrial y Portuario de Colombia</p>
+        <p class="footer-item">gerencia.clapsas@gmail.com</p>
+        <p class="footer-item">3022872364 – 3012507441</p>
+        <div class="contenedor-socials">
+          <p class="social facebook"></p>
+          <p class="social twitter"></p>
+          <p class="social instagram"></p>
+          <p class="social linkedin"></p>
+        </div>
+      </div>
+      <div class="footer-columna">
+        <p class="footer-title">Conéctate con CLAPSAS</p>
+        <p class="footer-item"> <a class="footer-item__enlace" href="contacto.html">Contáctanos</a></p>
+        <p class="footer-item"> <a class="footer-item__enlace" href="contacto.html">¿Quieres invitarnos a un evento?</a></p>
+        <p class="footer-item"> <a class="footer-item__enlace" href="contacto.html">Servicios de Asesoría</a></p>
+        <p class="footer-item"> <a class="footer-item__enlace" href="contacto.html">Servicios de Conferencia</a></p>
+      </div>
+      <div class="footer-columna">
+        <p class="footer-title">Acerca de la empresa</p>
+        <p class="footer-item"> <a class="footer-item__enlace" href="quienes-somos.html">Misión & Visión</a></p>
+        <p class="footer-item"> <a class="footer-item__enlace" href="quehacemos.html">¿Que hacemos?</a></p>
+        <p class="footer-item"> <a class="footer-item__enlace" href="quienes-somos.html">¿Quienés somos?</a></p>
+      </div>
+    </footer>
+    <script src="js/menu-toggle.js"></script>
+    <script src="js/validacion-formulario.js"></script>
+  </body>
+</html>
